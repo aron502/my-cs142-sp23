@@ -1,0 +1,58 @@
+.datepicker {
+    font-family: Arial, sans-serif;
+    width: 200px;
+}
+
+.datepicker .month {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.datepicker .month .prev,
+.datepicker .month .next {
+    background-color: #f8f8f8;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.datepicker .month .month-year {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.datepicker .weekdays,
+.datepicker .days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.datepicker .weekdays div,
+.datepicker .days .day {
+    width: 28px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.datepicker .days .day {
+    height: 28px;
+    line-height: 28px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.datepicker .days .day.empty {
+    background-color: transparent;
+    cursor: default;
+}
+
+.datepicker .days .day:hover {
+    background-color: #ddd;
+}
+
+.other-month {
+    color: #808080;
+    background-color: white;
+}
