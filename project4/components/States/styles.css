@@ -1,0 +1,48 @@
+/**
+ * CSS for the CS142 Project 4, Problem 2 States component.
+ *
+ * Since CSS uses a global name space for classes we should use names starting
+ * with "cs142-states-" here.
+ */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.states {
+  width: 50%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

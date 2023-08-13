@@ -1,3 +1,5 @@
+/* chatgpt generate */
+
 .datepicker {
     font-family: Arial, sans-serif;
     width: 200px;
@@ -8,8 +10,8 @@
     margin-bottom: 10px;
 }
 
-.datepicker .month .prev,
-.datepicker .month .next {
+.prev,
+.next {
     background-color: #f8f8f8;
     border: none;
     cursor: pointer;
@@ -43,7 +45,7 @@
     cursor: pointer;
 }
 
-.datepicker .days .day.empty {
+.datepicker .days {
     background-color: transparent;
     cursor: default;
 }
@@ -54,5 +56,4 @@
 
 .other-month {
     color: #808080;
-    background-color: white;
 }

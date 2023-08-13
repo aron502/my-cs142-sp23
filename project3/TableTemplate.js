@@ -1,7 +1,5 @@
 "use strict";
 
-// File: TableTemplate.js
-
 // Simple template processor function
 function TemplateProcessor(template, dictionary) {
     return template.replace(/\{\{(\w+)\}\}/g, function (_, key) {
